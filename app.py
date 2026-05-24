@@ -351,20 +351,23 @@ for project in projects:
     </div>
     """, unsafe_allow_html=True)
 
-    c1, c2 = st.columns(2)
+    c1, c2 = st.columns([1, 1])
 
-with c1:
-    st.link_button(
-        f"🔍 View Project — {project['title']}",
-        project["live_link"]
-    )
+    with c1:
+        st.link_button(
+            f"🔍 View Project — {project['title']}",
+            project["live_link"],
+            use_container_width=True
+        )
 
-with c2:
-    st.link_button(
-        f"💻 GitHub — {project['title']}",
-        project["github_link"]
-    )
+    with c2:
+        st.link_button(
+            f"💻 GitHub — {project['title']}",
+            project["github_link"],
+            use_container_width=True
+        )
 
+    st.markdown("<br><br>", unsafe_allow_html=True)
 # -----------------------------
 # PREMIUM FOOTER
 # -----------------------------
