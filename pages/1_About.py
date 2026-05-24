@@ -109,7 +109,7 @@ with col2:
     st.markdown("""
     <div class="title">About Dr. Samuel Israel</div>
     <div class="subtitle">
-    Medical Doctor | Healthcare AI Builder | Data Scientist | Machine Learning Engineering | Clinical Intelligence | Digital Health Transformation
+    Medical Doctor | Healthcare AI Specialist | Data Scientist | Machine Learning Engineering | Clinical Intelligence | Digital Health Transformation
     </div>
     """, unsafe_allow_html=True)
 
@@ -175,10 +175,10 @@ with c3:
 
 st.markdown("""
 <div class="card">
-<h3>Current Academic Pathway</h3>
+<h3>Education</h3>
 <ul>
 <li><b>MIVA Master of Information Technology (MIT), AI Specialization</b></li>
-<li><b>MB,BS</b> — Ebonyi State University</li>
+<li><b>Bachelor of Medicine, Bachelor of Surgery (MB,BS),</b> — Ebonyi State University</li>
 </ul>
 </div>
 """, unsafe_allow_html=True)
