@@ -98,13 +98,15 @@ st.markdown("""
 
     font-size: 21px;
 
-    line-height: 1.9;
+    line-height: 1.95;
 
-    color: #475569;
+    color: #334155;
 
     margin-bottom: 25px;
-}
 
+    font-weight: 500;
+}
+            
 .metric-box {
 
     background: #eff6ff;
