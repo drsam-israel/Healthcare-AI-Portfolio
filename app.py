@@ -6,7 +6,7 @@ from PIL import Image
 # -----------------------------
 
 st.set_page_config(
-    page_title="Dr. Samuel Israel | MIT AI Specialization",
+    page_title="Dr. Samuel Israel | MIT, AI Specialization",
     page_icon="🧠",
     layout="wide"
 )
@@ -278,38 +278,56 @@ st.markdown('<div class="section-title">Flagship Healthcare AI Platforms</div>',
 
 projects = [
 
-    {
-        "title": "🫀 CardioIntel AI",
-        "desc": "Executive Cardiovascular Intelligence & Explainable Healthcare AI Platform integrating mortality prediction, SHAP explainability, biomarker intelligence, readmission prediction, and executive clinical dashboards.",
-        "skills": [
-            "SHAP AI",
-            "Cardiovascular Analytics",
-            "Mortality Prediction",
-            "Clinical Decision Support"
-        ]
-    },
+ {
+    "title": "🫀 CardioIntel AI",
 
-    {
-        "title": "🩺 DiaIntel AI",
-        "desc": "Enterprise Diabetes Readmission Intelligence Platform focused on utilization analytics, occupancy forecasting, predictive healthcare intelligence, and executive operational dashboards.",
-        "skills": [
-            "Predictive AI",
-            "Healthcare Forecasting",
-            "Readmission Analytics",
-            "Executive Dashboards"
-        ]
-    },
+    "desc": "Executive Cardiovascular Intelligence & Explainable Healthcare AI Platform integrating mortality prediction, SHAP explainability, biomarker intelligence, readmission prediction, and executive clinical dashboards.",
 
-    {
-        "title": "🏥 HealthIntel AI",
-        "desc": "Executive Healthcare Operations & Intelligence Platform developed for strategic KPI monitoring, operational analytics, patient trend intelligence, and healthcare transformation insights.",
-        "skills": [
-            "Healthcare KPIs",
-            "Operational Intelligence",
-            "Strategic Analytics",
-            "Digital Health"
-        ]
-    }
+    "skills": [
+        "SHAP AI",
+        "Cardiovascular Analytics",
+        "Mortality Prediction",
+        "Clinical Decision Support"
+    ],
+
+    "live_link": "https://cardiointel-ai-8hvwda5isaw3auxwfkznni.streamlit.app/",
+
+    "github_link": "https://github.com/drsam-israel/CardioIntel-AI"
+},
+   
+   {
+    "title": "🩺 DiaIntel AI",
+
+    "desc": "Enterprise Diabetes Readmission Intelligence Platform focused on utilization analytics, occupancy forecasting, predictive healthcare intelligence, and executive operational dashboards.",
+
+    "skills": [
+        "Predictive AI",
+        "Healthcare Forecasting",
+        "Readmission Analytics",
+        "Executive Dashboards"
+    ],
+
+    "live_link": "https://healthcare-executive-intelligence-platform-hhc25m9bn3etmvc6zgx.streamlit.app/",
+
+    "github_link": "https://github.com/drsam-israel/healthcare-executive-intelligence-platform"
+},
+
+{
+    "title": "🏥 HealthIntel AI",
+
+    "desc": "Executive Healthcare Operations & Intelligence Platform developed for strategic KPI monitoring, operational analytics, patient trend intelligence, and healthcare transformation insights.",
+
+    "skills": [
+        "Healthcare KPIs",
+        "Operational Intelligence",
+        "Strategic Analytics",
+        "Digital Health"
+    ],
+
+    "live_link": "https://healthcare-executive-intelligence-ai-platform-ersppv6rafg8uza7.streamlit.app/",
+
+    "github_link": "https://github.com/drsam-israel/Healthcare-Executive-Intelligence-AI-Platform"
+}
 
 ]
 
@@ -335,11 +353,17 @@ for project in projects:
 
     c1, c2 = st.columns(2)
 
-    with c1:
-        st.button(f"🔍 View Project — {project['title']}")
+with c1:
+    st.link_button(
+        f"🔍 View Project — {project['title']}",
+        project["live_link"]
+    )
 
-    with c2:
-        st.button(f"💻 GitHub — {project['title']}")
+with c2:
+    st.link_button(
+        f"💻 GitHub — {project['title']}",
+        project["github_link"]
+    )
 
 # -----------------------------
 # PREMIUM FOOTER

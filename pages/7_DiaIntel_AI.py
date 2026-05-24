@@ -173,13 +173,13 @@ c1, c2 = st.columns(2)
 with c1:
     st.link_button(
         "🔍 View Live Project",
-        "YOUR_DIAINTEL_STREAMLIT_LINK"
+        "https://healthcare-executive-intelligence-platform-hhc25m9bn3etmvc6zgx.streamlit.app/"
     )
 
 with c2:
     st.link_button(
         "💻 GitHub Repository",
-        "YOUR_DIAINTEL_GITHUB_LINK"
+        "https://github.com/drsam-israel/healthcare-executive-intelligence-platform"
     )
 
 st.success(
