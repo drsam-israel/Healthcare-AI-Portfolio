@@ -225,10 +225,7 @@ Executive Operations Dashboard
 </div>
 """, unsafe_allow_html=True)
 
-st.image(
-    "assets/screenshots/command_center.png",
-    use_container_width=True
-)
+st.info("Executive Operations Dashboard screenshot will be added here.")
 
 # ------------------------------------------------
 # ARCHITECTURE
