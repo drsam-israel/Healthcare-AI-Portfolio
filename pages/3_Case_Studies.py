@@ -394,6 +394,103 @@ and data-driven healthcare leadership.
 </div>
 """, unsafe_allow_html=True)
 
+
+
+# =====================================================
+# HEALTHCARE OPERATIONS COMMAND CENTER
+# =====================================================
+
+st.markdown("""
+<div class="case-card">
+
+<div class="case-title">
+🏥 Healthcare Operations Command Center
+</div>
+
+<div class="section-header">
+Business Challenge
+</div>
+
+<div class="case-text">
+
+Healthcare organizations continue to face increasing operational pressure related to:
+ICU congestion,
+bed occupancy strain,
+prolonged patient length-of-stay,
+emergency department overcrowding,
+inefficient patient flow,
+capacity management challenges,
+and fragmented operational visibility.
+
+Traditional healthcare reporting systems often lack integrated command-center intelligence,
+real-time operational visibility,
+and predictive operational analytics required for executive healthcare decision-making.
+
+</div>
+
+<div class="section-header">
+AI / Analytics Solution
+</div>
+
+<div class="case-text">
+
+Developed an Enterprise Healthcare Operations Intelligence System
+designed as a deployable executive command-center environment integrating:
+hospital workflow analytics,
+patient flow intelligence,
+bed occupancy monitoring,
+ICU utilization analytics,
+length-of-stay surveillance,
+operational forecasting,
+and executive healthcare KPI monitoring.
+
+</div>
+
+<div class="section-header">
+Key Capabilities
+</div>
+
+<div class="case-text">
+
+• Bed Occupancy Intelligence<br>
+• ICU Utilization Analytics<br>
+• Patient Flow Intelligence<br>
+• Length-of-Stay Analytics<br>
+• ED Congestion Monitoring<br>
+• Operational Forecasting<br>
+• Executive KPI Dashboards<br>
+• Healthcare Workflow Visibility<br>
+• Capacity Pressure Intelligence<br>
+• Executive Decision Support
+
+</div>
+
+<div class="section-header">
+Strategic Impact
+</div>
+
+<div class="case-text">
+
+Enabled executive-level healthcare operations visibility,
+improved operational awareness,
+supported strategic healthcare workflow optimization,
+enhanced hospital capacity intelligence,
+and demonstrated deployable enterprise healthcare operations analytics capabilities.
+
+</div>
+
+<br>
+
+<span class="badge">Healthcare Operations</span>
+<span class="badge">Patient Flow Analytics</span>
+<span class="badge">Operational Intelligence</span>
+<span class="badge">ICU Utilization</span>
+<span class="badge">Executive Dashboards</span>
+<span class="badge">Healthcare Analytics</span>
+
+</div>
+""", unsafe_allow_html=True)
+
 st.success(
     "Executive Healthcare AI case studies demonstrating deployable, strategic, and operational healthcare intelligence systems."
 )
