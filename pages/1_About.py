@@ -97,7 +97,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-image = Image.open("assets/profile.jpg")
+image = Image.open("assets/profile.png")
 image = image.resize((180, 180))
 
 col1, col2 = st.columns([1, 4])
