@@ -241,8 +241,8 @@ m1, m2, m3, m4 = st.columns(4)
 with m1:
     st.markdown("""
     <div class="metric-card">
-    <div class="metric-number">3</div>
-    <div class="metric-label">Flagship AI Platforms</div>
+    <div class="metric-number">4</div>
+    <div class="metric-label">Flagship Healthcare Projects</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -257,7 +257,7 @@ with m2:
 with m3:
     st.markdown("""
     <div class="metric-card">
-    <div class="metric-number">10K+</div>
+    <div class="metric-number">100K+</div>
     <div class="metric-label">Healthcare Records Analyzed</div>
     </div>
     """, unsafe_allow_html=True)
