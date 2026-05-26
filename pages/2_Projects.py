@@ -461,5 +461,5 @@ st.success(
 
     "live_link": "https://enterprise-healthcare-operations-intelligence-system-kxqd4qjp6.streamlit.app/",
 
-    "github_link": "drsam-israel/enterprise-healthcare-operations-intelligence-system"
+    "github_link": "https://github.com/drsam-israel/enterprise-healthcare-operations-intelligence-system"
 },
