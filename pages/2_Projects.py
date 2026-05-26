@@ -472,7 +472,7 @@ and healthcare decision support.
 """, unsafe_allow_html=True)
 
 st.image(
-    "assets/screenshots/command_center.png",
+    "assets/screenshots/executive_command_center.png",
     use_container_width=True
 )
 
