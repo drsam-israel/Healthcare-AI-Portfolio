@@ -274,77 +274,80 @@ with m4:
 # PROJECTS SECTION
 # -----------------------------
 
-st.markdown('<div class="section-title">Flagship Healthcare Projects</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="section-title">Flagship Healthcare Projects</div>',
+    unsafe_allow_html=True
+)
 
 projects = [
 
- {
-    "title": "🫀 CardioIntel AI",
+    {
+        "title": "🫀 CardioIntel AI",
 
-    "desc": "Executive Cardiovascular Intelligence & Explainable Healthcare AI Platform integrating mortality prediction, SHAP explainability, biomarker intelligence, readmission prediction, and executive clinical dashboards.",
+        "desc": "Executive Cardiovascular Intelligence & Explainable Healthcare AI Platform integrating mortality prediction, SHAP explainability, biomarker intelligence, readmission prediction, and executive clinical dashboards.",
 
-    "skills": [
-        "SHAP AI",
-        "Cardiovascular Analytics",
-        "Mortality Prediction",
-        "Clinical Decision Support"
-    ],
+        "skills": [
+            "SHAP AI",
+            "Cardiovascular Analytics",
+            "Mortality Prediction",
+            "Clinical Decision Support"
+        ],
 
-    "live_link": "https://cardiointel-ai-8hvwda5isaw3auxwfkznni.streamlit.app/",
+        "live_link": "https://cardiointel-ai-8hvwda5isaw3auxwfkznni.streamlit.app/",
 
-    "github_link": "https://github.com/drsam-israel/CardioIntel-AI"
-},
-   
-   {
-    "title": "🩺 DiaIntel AI",
+        "github_link": "https://github.com/drsam-israel/CardioIntel-AI"
+    },
 
-    "desc": "Enterprise Diabetes Readmission Intelligence Platform focused on utilization analytics, occupancy forecasting, predictive healthcare intelligence, and executive operational dashboards.",
+    {
+        "title": "🩺 DiaIntel AI",
 
-    "skills": [
-        "Predictive AI",
-        "Healthcare Forecasting",
-        "Readmission Analytics",
-        "Executive Dashboards"
-    ],
+        "desc": "Enterprise Diabetes Readmission Intelligence Platform focused on utilization analytics, occupancy forecasting, predictive healthcare intelligence, and executive operational dashboards.",
 
-    "live_link": "https://healthcare-executive-intelligence-platform-hhc25m9bn3etmvc6zgx.streamlit.app/",
+        "skills": [
+            "Predictive AI",
+            "Healthcare Forecasting",
+            "Readmission Analytics",
+            "Executive Dashboards"
+        ],
 
-    "github_link": "https://github.com/drsam-israel/healthcare-executive-intelligence-platform"
-},
+        "live_link": "https://healthcare-executive-intelligence-platform-hhc25m9bn3etmvc6zgx.streamlit.app/",
 
-{
-    "title": "🏥 HealthIntel AI",
+        "github_link": "https://github.com/drsam-israel/healthcare-executive-intelligence-platform"
+    },
 
-    "desc": "Executive Healthcare Operations & Intelligence Platform developed for strategic KPI monitoring, operational analytics, patient trend intelligence, and healthcare transformation insights.",
+    {
+        "title": "🏥 HealthIntel AI",
 
-    "skills": [
-        "Healthcare KPIs",
-        "Operational Intelligence",
-        "Strategic Analytics",
-        "Digital Health"
-    ],
+        "desc": "Executive Healthcare Operations & Intelligence Platform developed for strategic KPI monitoring, operational analytics, patient trend intelligence, and healthcare transformation insights.",
 
-    "live_link": "https://healthcare-executive-intelligence-ai-platform-ersppv6rafg8uza7.streamlit.app/",
+        "skills": [
+            "Healthcare KPIs",
+            "Operational Intelligence",
+            "Strategic Analytics",
+            "Digital Health"
+        ],
 
-    "github_link": "https://github.com/drsam-israel/Healthcare-Executive-Intelligence-AI-Platform"
-}
+        "live_link": "https://healthcare-executive-intelligence-ai-platform-ersppv6rafg8uza7.streamlit.app/",
 
-{
-    "title": "🏥 Healthcare Operations Command Center",
+        "github_link": "https://github.com/drsam-israel/Healthcare-Executive-Intelligence-AI-Platform"
+    },
 
-    "desc": "Enterprise Healthcare Operations Intelligence System designed for real-world hospital workflow analytics, bed occupancy monitoring, ICU utilization intelligence, patient flow analytics, length-of-stay insights, operational forecasting, executive KPI tracking, and healthcare decision support.",
+    {
+        "title": "🏥 Healthcare Operations Command Center",
 
-    "skills": [
-        "Healthcare Operations",
-        "Command Center",
-        "Patient Flow Analytics",
-        "Executive KPIs"
-    ],
+        "desc": "Enterprise Healthcare Operations Intelligence System designed for real-world hospital workflow analytics, bed occupancy monitoring, ICU utilization intelligence, patient flow analytics, length-of-stay insights, operational forecasting, executive KPI tracking, and healthcare decision support.",
 
-    "live_link": "https://enterprise-healthcare-operations-intelligence-system-kxqd4qjp6.streamlit.app/",
+        "skills": [
+            "Healthcare Operations",
+            "Command Center",
+            "Patient Flow Analytics",
+            "Executive KPIs"
+        ],
 
-    "github_link": "https://github.com/drsam-israel/enterprise-healthcare-operations-intelligence-system"
-} 
+        "live_link": "https://enterprise-healthcare-operations-intelligence-system-kxqd4qjp6.streamlit.app/",
+
+        "github_link": "https://github.com/drsam-israel/enterprise-healthcare-operations-intelligence-system"
+    }
 
 ]
 
