@@ -443,23 +443,100 @@ st.success(
 )
 
 
-
 # =====================================================
-# Healthcare Operations Command Center
+# HEALTHCARE OPERATIONS COMMAND CENTER
 # =====================================================
-{
-    "title": "🏥 Healthcare Operations Command Center",
 
-    "desc": "Enterprise Healthcare Operations Intelligence System designed for real-world hospital workflow analytics, bed occupancy monitoring, ICU utilization intelligence, patient flow analytics, length-of-stay insights, operational forecasting, executive KPI tracking, and healthcare decision support.",
+st.markdown("""
+<div class="project-card">
 
-    "skills": [
-        "Healthcare Operations",
-        "Command Center",
-        "Patient Flow Analytics",
-        "Executive KPIs"
-    ],
+<div class="project-title">
+🏥 Healthcare Operations Command Center
+</div>
 
-    "live_link": "https://enterprise-healthcare-operations-intelligence-system-kxqd4qjp6.streamlit.app/",
+<div class="project-desc">
 
-    "github_link": "https://github.com/drsam-israel/enterprise-healthcare-operations-intelligence-system"
-},
+Enterprise Healthcare Operations Intelligence System
+designed for real-world hospital workflow analytics,
+bed occupancy monitoring,
+ICU utilization intelligence,
+patient flow analytics,
+length-of-stay insights,
+operational forecasting,
+executive KPI tracking,
+and healthcare decision support.
+
+</div>
+
+</div>
+""", unsafe_allow_html=True)
+
+st.image(
+    "assets/screenshots/command_center.png",
+    use_container_width=True
+)
+
+m1, m2, m3, m4 = st.columns(4)
+
+with m1:
+    st.markdown("""
+    <div class="metric-box">
+    <div class="metric-number">LOS</div>
+    <div class="metric-label">Length-of-Stay Analytics</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with m2:
+    st.markdown("""
+    <div class="metric-box">
+    <div class="metric-number">ICU</div>
+    <div class="metric-label">ICU Utilization Intelligence</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with m3:
+    st.markdown("""
+    <div class="metric-box">
+    <div class="metric-number">OPS</div>
+    <div class="metric-label">Operational Intelligence</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with m4:
+    st.markdown("""
+    <div class="metric-box">
+    <div class="metric-number">KPI</div>
+    <div class="metric-label">Executive Command Center</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+st.markdown("""
+
+<span class="badge">Healthcare Operations</span>
+<span class="badge">Patient Flow Analytics</span>
+<span class="badge">Bed Occupancy Intelligence</span>
+<span class="badge">ICU Utilization</span>
+<span class="badge">Operational Forecasting</span>
+<span class="badge">Executive KPIs</span>
+
+""", unsafe_allow_html=True)
+
+c1, c2 = st.columns(2)
+
+with c1:
+    st.link_button(
+        "🔍 View Healthcare Operations Command Center",
+        "https://enterprise-healthcare-operations-intelligence-system-kxqd4qjp6.streamlit.app/"
+    )
+
+with c2:
+    st.link_button(
+        "💻 GitHub Repository",
+        "https://github.com/drsam-israel/enterprise-healthcare-operations-intelligence-system"
+    )
+
+st.markdown("<br><br>", unsafe_allow_html=True)
+
+st.success(
+    "Enterprise Healthcare Operations Intelligence platform supporting hospital workflow analytics, operational visibility, patient flow intelligence, and executive healthcare decision support."
+)
