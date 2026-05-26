@@ -33,7 +33,7 @@ Clinical Intelligence | Digital Health Transformation
 # LOAD IMAGE
 # -----------------------------
 
-image = Image.open("assets/profile.jpg")
+image = Image.open("assets/profile.png")
 image = image.resize((220, 220))
 
 # -----------------------------
