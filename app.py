@@ -329,6 +329,23 @@ projects = [
     "github_link": "https://github.com/drsam-israel/Healthcare-Executive-Intelligence-AI-Platform"
 }
 
+{
+    "title": "🏥 Healthcare Operations Command Center",
+
+    "desc": "Enterprise Healthcare Operations Intelligence System designed for real-world hospital workflow analytics, bed occupancy monitoring, ICU utilization intelligence, patient flow analytics, length-of-stay insights, operational forecasting, executive KPI tracking, and healthcare decision support.",
+
+    "skills": [
+        "Healthcare Operations",
+        "Command Center",
+        "Patient Flow Analytics",
+        "Executive KPIs"
+    ],
+
+    "live_link": "https://enterprise-healthcare-operations-intelligence-system-kxqd4qjp6.streamlit.app/",
+
+    "github_link": "https://github.com/drsam-israel/enterprise-healthcare-operations-intelligence-system"
+} 
+
 ]
 
 for project in projects:
@@ -368,6 +385,7 @@ for project in projects:
         )
 
     st.markdown("<br><br>", unsafe_allow_html=True)
+
 # -----------------------------
 # PREMIUM FOOTER
 # -----------------------------
