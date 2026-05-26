@@ -274,7 +274,7 @@ with m4:
 # PROJECTS SECTION
 # -----------------------------
 
-st.markdown('<div class="section-title">Flagship Healthcare AI Platforms</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-title">Flagship Healthcare Projects</div>', unsafe_allow_html=True)
 
 projects = [
 
