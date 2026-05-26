@@ -96,7 +96,10 @@ executive KPI tracking, and healthcare decision support.
 </div>
 """, unsafe_allow_html=True)
 
-st.info("Executive Operations Dashboard screenshot will be added here.")
+st.image(
+    "assets/screenshots/executive_command_center.png",
+    use_container_width=True
+)
 
 st.markdown("<br>", unsafe_allow_html=True)
 
