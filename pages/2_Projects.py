@@ -160,7 +160,7 @@ st.markdown("""
 
 st.markdown("""
 <div class="title">
-Flagship Healthcare AI Platforms
+Flagship Healthcare Projects
 </div>
 
 <div class="subtitle">
