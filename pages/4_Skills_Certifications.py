@@ -258,9 +258,9 @@ st.markdown("""
 
 <div class="card-text">
 
-• Advanced Certification in Data Science & AI — IIT / Intellipaat<br><br>
+• Advanced Certification in Data Science & AI —  Indian Institute of Technology, Roorkee & Intellipaat<br><br>
 
-• AI Certification in Healthcare — Digital Health Africa (DHA)<br><br>
+• AI in Healthcare Certification — Digital Health Africa (DHA)<br><br>
 
 • Certified Scrum Product Owner (CSPO) — Scrum Alliance<br><br>
 
@@ -268,7 +268,7 @@ st.markdown("""
 
 • Project Management Training — 3P Consulting<br><br>
 
-• Business Analysis Training US Healthcare System — Techcanvass<br><br>
+•  Certificate Program in US Healthcare Domain with Techcanvass, an IIBA® Endorsed Education Provider<br><br>
 
 
 
